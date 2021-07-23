@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+/* CSS DEL NAVBAR */
+.navbar{
+    display: flex;
+    background: #222222;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+}
+
+.lista{
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.lista li a{
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------*/
+
+/*CSS DEL MAIN*/
+
+.container{
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0px;
+}
+
+.delivery{
+    position: relative;
+
+}
+
+.texto{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 700px;
+    color: #FC200C;
+}
+
+span{
+    color: white;
+}
+
+.cuadroBlanco{
+    background-color: white;
+    width: 491px;
+    height: 350px;
+    border-radius: 6px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    /* position: relative; */
+}
+
+.topPizza{
+    display: flex;
+    flex-direction: column;
+    grid-column-end: span;
+    padding-left: 49px;
+    
+}
+
+.topPizza > h2{
+    /* display: block; */
+    padding: 20px;
+}
+
+.opcionesImg{
+    display: flex; 
+    justify-content:space-around;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.mejoresPizzas{
+    /* position: relative; */
+    /* top: 71px; */
+    /* bottom: 44px; */
+    /* left: 0px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.texto2{
+    /* width: 700px; */
+    color: #FC200C;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*CSS DEL FOOTER*/
+
+.footer{
+    display: flex;
+    background: #222222;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.listaFooter{
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.listaFooter li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*--------------------------------------------------------------------------------*/
